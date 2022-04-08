@@ -1,0 +1,25 @@
+###
+GET http://localhost:4000/subscribers
+
+###
+GET http://localhost:4000/subscribers/624f94a6f9848cba97d47f8f
+
+###
+POST http://localhost:4000/subscribers
+Content-Type: application/json
+
+{
+    "name" : "Amazing Adam",
+    "subscribedToChannel" : "Web Dev Simplified"
+}
+
+### 
+DELETE http://localhost:4000/subscribers/624f94a6f9848cba97d47f8f
+
+### 
+PATCH http://localhost:4000/subscribers/624f94b8b22074e975412391
+Content-Type: application/json
+
+{
+    "name": "Don"
+}
