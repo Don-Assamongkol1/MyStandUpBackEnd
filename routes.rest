@@ -23,3 +23,26 @@ Content-Type: application/json
 {
     "name": "Don"
 }
+
+
+
+
+
+
+###
+GET http://localhost:4000/tickets/don
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

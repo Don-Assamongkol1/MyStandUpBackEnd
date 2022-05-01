@@ -11,8 +11,8 @@ db.once('open', () => console.log('connected to database'));
 
 app.use(express.json()); // lets our server accept json as a body instead of a get elem, etc.
 
-const subscribersRouter = require('./routes/subscribers');
-app.use('/subscribers', subscribersRouter);
+const ticketsRouter = require('./routes/ticketsRoute');
+app.use('/tickets', ticketsRouter);
 
 app.listen(process.env.PORT, () => console.log('server started'));
 
